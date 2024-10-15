@@ -381,6 +381,11 @@ form{
         font-size: 14px;
         padding-bottom: 25px;
     }
+    
+    .end{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
 }
 
 
