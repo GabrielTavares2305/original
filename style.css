@@ -226,6 +226,25 @@ form{
     justify-content: end;
 }
 
+.formulario label{
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.formulario button{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #0275D8;
+    height: 50px;
+}
+
+.formulario input{
+    border-color: #0275D8;
+    border-radius: 10px;
+    font-size:20px
+}
 
 @media( max-width: 1600px){
 
@@ -381,12 +400,57 @@ form{
         font-size: 14px;
         padding-bottom: 25px;
     }
-    
+
     .end{
         flex-direction: column-reverse;
-        gap: 30px;
+        justify-content: flex-start;
+        gap: 20px;
     }
+
+    .col-6 p{
+        font-size: 25px;
+    }
+
+    .formulario label{
+        margin-top: 12px;
+        font-size: 15px;
+    }
+    
+    .formulario button{
+        margin-bottom: 30px;
+        border-radius: 5px;
+        background-color: white;
+        border-color: #0275D8;
+        height: 30px;
+    }
+    
+    .formulario input{
+        border-color: #0275D8;
+        border-radius: 5px;
+        font-size: 15px
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
