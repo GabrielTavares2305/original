@@ -430,6 +430,10 @@ form{
         font-size: 15px
     }
 
+    .navbar-brand{
+        margin: 0;
+    }
+
 
 }
 
